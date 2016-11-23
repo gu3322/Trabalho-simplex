@@ -1,0 +1,48 @@
+<style>
+	input[type="submit"]{
+		width: 70px;
+	}
+	input[type="text"]{
+		width: 30px;
+	}
+</style>
+<html>
+	<head>
+		<title>Metodo Simplex</title>
+	</head>
+	<body>	
+		informe sua funcao
+		<form action="valida.php" method="POST">
+		<table><tr><td>
+			Z = 
+			<input type="text" name="l1[]"/>
+			X1 </td><td>
+			<input type="text" name="l1[]"/>
+			X2 </td></tr>
+			<tr><td>restrições</td></tr>
+			<tr><td>
+			<input type="text" name="l2[]"/>
+			X1 </td><td>
+			<input type="text" name="l2[]"/>
+			X2 <=</td><td>
+			<input type="text" name="l2[]"/>
+			</td></tr>
+			<tr><td>
+			<input type="text" name="l3[]"/>
+			X1 </td><td>
+			<input type="text" name="l3[]"/>
+			X2 <=</td><td>
+			<input type="text" name="l3[]"/>
+			</td></tr>
+			<tr><td>
+			<input type="text" name="l4[]"/>
+			X1 </td><td>
+			<input type="text" name="l4[]"/>
+			X2 <=</td><td>
+			<input type="text" name="l4[]"/>
+			</td></tr>
+			<tr><td><input type="submit" value="Validar"/></td></tr>
+			</table>
+		</form>
+	</body>
+</html>
